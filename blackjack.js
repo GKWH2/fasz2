@@ -146,3 +146,8 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum;
 }
+
+function reset (){
+    var element = document.getElementById("your-cards ");
+     element.reset()
+  }
